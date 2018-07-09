@@ -3,9 +3,18 @@
     <head>
         <title>iovid</title>
     </head>
-    
+		
     <body background="https://github.com/Flippity/Flippity.github.io/blob/master/background.png?raw=true">
-		<h1 class="heading" align=center>io Vid</h1>
+		<h1 id= "heading" class="heading" align=center>io Vid</h1>
+		
+	     <script>
+		 
+		 var splash = new Array('splash.txt', 'index.html', 'Flippity.github.io', 'iovid', ':0');
+		 		
+		document.getElementById("heading").innerHTML = splash[Math.floor(Math.random() * (splash.length))];
+		 
+		</script>
+		
     </body>
 	
 	<script>
