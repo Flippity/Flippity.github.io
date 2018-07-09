@@ -4,15 +4,12 @@
         <title>iovid</title>
     </head>
 		
-    <body background="https://github.com/Flippity/Flippity.github.io/blob/master/background.png?raw=true">
+    <body class="body">
 		<h1 id= "heading" class="heading" align=center>io Vid</h1>
 		
-	     <script>
-		 
-		 var splash = new Array('splash.txt', 'index.html', 'Flippity.github.io', 'iovid', ':0');
-		 		
+	    <script>
+		var splash = new Array('splash.txt', 'index.html', 'Flippity.github.io', 'iovid', ':0');
 		document.getElementById("heading").innerHTML = splash[Math.floor(Math.random() * (splash.length))];
-		 
 		</script>
 		
     </body>
@@ -26,6 +23,10 @@
 			font-size: 50pt;
 			color:white;
 			font-family: "Comic Sans MS";
+		}
+		html{
+			height: 100%;
+			background: linear-gradient(to top right, black, blue);
 		}
     </style>
     
