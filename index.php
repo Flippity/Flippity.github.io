@@ -5,6 +5,11 @@
     </head>
 		
     <body>
+		
+		<div class="tab">
+			<?php include 'tab.php';?>
+		</div>
+
 		<h1 id= "heading" class="heading" align=center>ioVid</h1>
 		<h1 id= "sub-heading" class="sub-heading" align=center></h1>
 		<hr>
