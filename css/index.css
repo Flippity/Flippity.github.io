@@ -1,0 +1,14 @@
+		.heading{
+			font-size: 50pt;
+			color:white;
+			font-family: "Comic Sans MS";
+		}
+		.index{
+			height: 100%;
+			background: linear-gradient(to top right, black, blue);
+		}
+		.sub-heading{
+			font-size: 25pt;
+			color:white;
+			font-family: "Comic Sans MS";
+		}
