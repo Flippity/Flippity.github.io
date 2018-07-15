@@ -1,0 +1,89 @@
+<?php
+
+
+
+ ?>
+ 
+ 
+ <html>
+ 
+	<body>
+		<div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'faq')">FAQ</button>
+            <button class="tablinks" onclick="openCity(event, 'services')">Services</button>
+            <button class="tablinks" onclick="openCity(event, 'submitform')">Submit Form</button>
+            <button class="tablinks" onclick="goToBlog()">Blog</button>
+            <button class="tablinks" onclick="goToEI()">ElectroInductors</button>
+        </div>
+        
+        <div id="faq" class="tabcontent">
+            <h3>FAQ</h3>
+            <h4 style="font-family: Comic Sans MS">Frequently Asked Questions.</h4>
+            <p>Q. Can you help me with coding?
+                <br/>
+                <br/>
+                A. Probably not.
+                <hr>
+                Q. What is your business on these parts of the internet?
+                <br/>
+                <br/>
+                A. Just tryin' to make a livin, sellin them custom Minecraft mods.
+                <hr>
+                Q. Do you accept any currency other than USD?
+                <br/>
+                <br/>
+                A. Not as of right now, check again later, as this may change.
+                <hr>
+                Q. Where can I contact you?
+                <br/>
+                <br/>
+                A. <a href="mailto:brockhefke123@gmail.com">brockhefke123@gmail.com</a>
+                <hr>
+                Q. Do you get paid before, or after?
+                <br/>
+                <br/>
+                A. I will only accept payment along with the form, to avoid getting scammed. This is potentially negotiable.
+            </p>
+            <span class="x" onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+    
+        <div id="services" class="tabcontent">
+            <h3>Services</h3>
+            <h4 style="font-family: Comic Sans MS">Here you will find all of what I offer.</h4>
+            <p>Minecraft mods. Price is negotiable, it really depends on the size of the mod, however.
+                <br/>
+                <br/>
+               Bukkit plugins, those are also negotiable on the price, depends on the size.
+               <br>
+               <br>
+               Custom software, anything you can possibly think of. Price depends on the size and complexity
+               <br>
+               <br>
+               Custom website, we will not purchase the domain, however, we can make you a website using; html, css, and js.
+            </p>
+            <span class="x" onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+        
+        <div id="submitform" class="tabcontent">
+            <h3>Submit Form</h3>
+            <h4 style="font-family: Comic Sans MS">A form to submit software.</h4>
+                <p style="color: white">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHMNvKx2ejVG_sFbC0jLdq5M6GUxNYkd_JJYGeX86lIlU_sg/viewform?usp=sf_link">Submition Form</a>
+                </p>
+            <span class="x" onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+    <script type="text/javascript" src="tabHandler.js"></script>
+
+        <h1 class="welcome" align=center>
+            Welcome!
+        </h1>
+        
+        <div align="center">
+            <img src = "https://lh5.googleusercontent.com/0qMQTxzjW6-mpyUk9YsFUCRKT2b_-0WAcRnynd5G2PTJBjFQmhJuWK70xqCOHgHt5n8MOsaBwV5UC4P7S-kj=w1366-h629" alt="Image not found" width = 250>
+        </div>
+        
+        
+        <h6 class="clan" align=center>
+        </h6>
+	</body>
+ </html>

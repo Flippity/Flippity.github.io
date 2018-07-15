@@ -1,0 +1,41 @@
+		.heading{
+			font-size: 50pt;
+			color: white;
+			font-family: "Comic Sans MS";
+		}
+		.signinform{
+			background-color: #3CBC8D;
+			color: white;
+			background-color: transparent;
+		}
+		html{
+			height: 100%;
+			background: linear-gradient(to top right, black, blue);
+		}
+		.sub-heading{
+			font-size: 25pt;
+			color: white;
+			font-family: "Comic Sans MS";
+		}
+		.signin{ 
+			font-size: 12pt;
+			color: white;
+			font-family: "Comic Sans MS";
+			text-align: left;
+			float: left;
+		}
+		.signout{ 
+			font-size: 12pt;
+			color: red;
+			font-family: "Comic Sans MS";
+			text-align: right;
+			float: right;
+		}
+		.sub-sub-heading{
+			font-size: 20pt;
+			color: white;
+			font-family: "Comic Sans MS";
+		}
+		hr{
+			color: blue;
+		}
