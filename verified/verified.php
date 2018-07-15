@@ -59,7 +59,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		
 		<h1 id="heading" class="heading" align=center> <?php echo $_SESSION['username'];?></h1>
 		<h1 class="sub-heading" align=center>Please Verify Your Account</h1>
-		<p class="sub-sub-heading" align=center>We have sent you an email.</p>
 		<h1 id="sub-heading" class="sub-heading" align=center></h1>
 		<hr>
 		
