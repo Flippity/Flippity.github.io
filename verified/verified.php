@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		
 		<form action="verified.php" method="post">
 			<input type="hidden" name="act" value="run">
-			<input type="submit" value="Run me now!">
+			<input type="submit" value="Verify">
 		</form>
 		
 	    <script src="../splash/js/splash.js"></script>

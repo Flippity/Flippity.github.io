@@ -11,7 +11,7 @@ if(isset($_SESSION['username'])){
 
 $to = $resultid;
 $subject = "Verification for ioVid";
-$txt = "Hello! Please verify your account by following this link:\nhttps://iovid.000webhostapp.com/verified/verified.php\nIf this was not you, please ignore this email.";
+$txt = "Hello! Please verify your account by following this link:\nhttps://iovid.000webhostapp.com/verified/verified.php\nIf this was not you, please ignore this email.\nClick the 'Verify' button once in the page.";
 $txt = wordwrap($txt,70);
 $headers = "From: noreply@iovid.com" . "\r\n" .
 "CC: noreply@iovid.com";
