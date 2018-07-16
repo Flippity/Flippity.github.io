@@ -23,6 +23,8 @@
 			font-family: "Comic Sans MS";
 			text-align: left;
 			float: left;
+			position: relative;
+			left: 30px; 
 		}
 		.signout{ 
 			font-size: 12pt;
@@ -30,6 +32,21 @@
 			font-family: "Comic Sans MS";
 			text-align: right;
 			float: right;
+			position: relative;
+			left: -30px; 
+		}
+		.row{
+			background-color: black;
+			border: 1px solid white;
+			color: #FFF;
+			font-family: "Comic Sans MS";
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			height: 60px;
+			width: 100%;
+			overflow: auto;
+			position: relative;
 		}
 		.sub-sub-heading{
 			font-size: 20pt;

@@ -3,7 +3,7 @@
 require_once 'config.php';
 
 session_start();
-$PLACEHOLD = "Sign In";
+$PLACEHOLD = "Sign In / Sign up";
 $url = "login/login.php";
 $signout = $email = "";
 if(isset($_SESSION['username'])){
@@ -17,9 +17,7 @@ if(isset($_SESSION['username'])){
 }
 if(isset($_SESSION['username'])){
 	$PLACEHOLD = $username;
-	$HTML = "<p id='signin' class='signin' align=right><?php echo '$PLACEHOLD'?></p>";
-	$url = "";
-	$signout = "Signout";
+	$signout = "Not you? Signout";
 	if($resultverify == 0){
 		header("Location: verified/verify.php");
 		die();
@@ -46,7 +44,6 @@ if(isset($_SESSION['username'])){
 		<h1 id="heading" class="heading" align=center>ioVid</h1>
 		<h1 id="sub-heading" class="sub-heading" align=center></h1>
 		<hr>
-		
 	    <script src="splash/js/splash.js"></script>
 		
 		<div class="copyright" id="copyright">
